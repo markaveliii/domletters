@@ -38,7 +38,7 @@ first line should be something like `#!/usr/bin/python3`.*)
 
 To run the program, say
 
-    ./domletters <input.txt
+    ./domletters.py <input.txt
 
 where `input.txt` is the input file to be processed.
 
@@ -58,9 +58,9 @@ taken.
 
 ## Sources
 
-Ideas for character frequency counter [came from here] (https://stackoverflow.com/questions/4131123/finding-the-most-frequent-character-in-a-string)
+Ideas for character frequency counter [came from here](https://stackoverflow.com/questions/4131123/finding-the-most-frequent-character-in-a-string)
 
-Understanding of collection.Counter [came from here] (https://docs.python.org/3/library/collections.html#collections.Counter)
+Understanding of collection.Counter [came from here](https://docs.python.org/3/library/collections.html#collections.Counter)
 
 
 
