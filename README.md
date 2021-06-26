@@ -1,5 +1,5 @@
 # domletters — count dominant letters
-<Your Name> and Bart Massey 2021
+Mark Montes and Bart Massey 2021
 
 This repository contains a program that counts dominant
 letters in alphabetic words of an ASCII text read from
@@ -55,6 +55,14 @@ text of
 [Tom Swift and His Airship](https://www.gutenberg.org/cache/epub/3005/pg3005.txt),
 from which the file `swift.txt` in this distribution was
 taken.
+
+## Sources
+
+Ideas for character frequency counter [came from here] (https://stackoverflow.com/questions/4131123/finding-the-most-frequent-character-in-a-string)
+
+Understanding of collection.Counter [came from here] (https://docs.python.org/3/library/collections.html#collections.Counter)
+
+
 
 ## License
 
