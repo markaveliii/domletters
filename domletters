@@ -8,7 +8,6 @@ def dlc(words):
     sum = 0
     for word in words:
         sum += count_dl(word)
-
     return sum
 
 def count_dl(word):
@@ -16,18 +15,18 @@ def count_dl(word):
         return 0
     if not word.isalpha():
         return 0
-
+    
     counted = Counter(word)
     return max(counted.values())
 
-
-
 def main():
-    words = sys.stdin.read()
+    words = sys.stdin.read().strip()
     words = words.upper()
-    words = words.split()
-
-    print(dlc(words))
+    if len(words.split()) > 1:
+        words = words.split()
+        print(dlc(words))
+    else:
+        print(count_dl(words))
 
 if __name__ == "__main__":
     main()
