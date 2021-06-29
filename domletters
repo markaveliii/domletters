@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+# Mark Montes
+# A counter that counts the dominant letters in a phrase passed in through a text file
+
 import sys
 from collections import Counter
 
@@ -14,6 +18,8 @@ def count_dl(word):
     if not word:
         return 0
     if not word.isalpha():
+        return 0
+    if not word.isascii():
         return 0
     
     counted = Counter(word)
